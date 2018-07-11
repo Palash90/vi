@@ -240,7 +240,7 @@ process until you have finished.
 -------------------------
 This book is an ongoing project, if you find any mistake or
 you have a suggestion please raise an issue here -
-https://github.com/weathered-paperweight/vi/issues
+https://github.com/weathered-paperweight/vi-essentials/issues
 Your changes and suggestions may get into future releases.
 
 1.7 Colophon
