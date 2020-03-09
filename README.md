@@ -128,6 +128,7 @@ Table of contents
 
 #### Chapter 1 
 ---------------
+
 Introduction
 ============
 Working with text is pretty common in Computer Systems. All
@@ -254,6 +255,7 @@ vim editor.
 
 ### Chapter 2
 -------------
+
 vi Editor
 =========
 In earlier days of Unix, only text editor available was
@@ -1092,6 +1094,7 @@ The text shold look like the following -
 |You will pass all your life in that box."            |
 +-----------------------------------------------------+
 ```
+
 4.4 Operator with count
 -----------------------
 Edit operators work on text objects (which are text based on
@@ -1818,6 +1821,7 @@ the first word -
 |There was an Old Man on some rocks,                  |
 +-----------------------------------------------------+
 ```
+
 6.7 Summary
 -----------
 In this chapter, we have seen some advanced movements to
