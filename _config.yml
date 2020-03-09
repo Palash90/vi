@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-architect
 plugins:
   - jekyll-relative-links
 relative_links:
