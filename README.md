@@ -483,6 +483,7 @@ to file.
 
 #### Chapter 3
 ---------------
+
 Basic Movements
 ===============
 Moving around the contents of a file is the most common
