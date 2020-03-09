@@ -60,7 +60,7 @@ Table of contents
 =================
 
 1. [Introduction](#chapter-1)
-   1. The importance of vi
+   1. [The importance of vi](#11-the-importance-of-vi)
    2. What all this book covers
    3. Who should read this book
    4. Who should avoid this book
