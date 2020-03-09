@@ -18,7 +18,7 @@
 |                                    |  
 |                                    |  
 |                                    |  
-|       Weathered Paperweight        |  
+|        Palash Kanti Kundu          |  
 |                                    |  
 |                                    |  
 |                                    |  
@@ -41,7 +41,7 @@ src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
 href="http://purl.org/dc/dcmitype/Text" property="dct:title"
 rel="dct:type">Vi Essentials</span> by <span
 xmlns:cc="http://creativecommons.org/ns#"
-property="cc:attributionName">Weathered Paperweight</span>
+property="cc:attributionName">Palash Kanti Kunduu</span>
 is licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
 Commons Attribution-NonCommercial-NoDerivatives 4.0
@@ -129,7 +129,7 @@ Table of contents
 #### Chapter 1 
 ---------------
 Introduction
-======================
+============
 Working with text is pretty common in Computer Systems. All
 programs are written in plain text, many
 configuration files are written in plain text. Also for
