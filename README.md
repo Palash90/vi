@@ -59,7 +59,7 @@ International License</a>.
 Table of contents
 =================
 
-1. Introduction
+1. [Introduction](#chapter-1)
    1. The importance of vi
    2. What all this book covers
    3. Who should read this book
