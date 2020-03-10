@@ -91,7 +91,7 @@ Table of contents
       * [Some Notes](#221-some-notes)
 3. [Basic Movements](#chapter-3)
    1. [The movement commands](#31-the-movement-commands)
-   2. [Move by characters](#32-move-by-characters]
+   2. [Move by characters](#32-move-by-characters)
       * [Alternatives to hjkl](#321-alternatives-to-hjkl)
       * [Move by lines](#322-move-by-lines)
       * [Move by Words](#323-move-by-words)
