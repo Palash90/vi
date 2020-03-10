@@ -76,9 +76,9 @@ Table of contents
 1. [Introduction](#chapter-1)
    1. [The importance of vi](#11-the-importance-of-vi)
    2. [What all this book covers](#12-what-all-this-book-covers)
-   3. Who should read this book
-   4. Who should avoid this book
-   5. How to read this book
+   3. [Who should read this book](#13-who-should-read-this-book)
+   4. [Who should avoid this book](#14-who-should-avoid-this-book)
+   5. [How to read this book](#15-how-to-read-this-book)
       * Prerequisite
    6. Feedback is important 
    7. Colophon
