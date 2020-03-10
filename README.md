@@ -144,6 +144,14 @@ Table of contents
    1. [Redraw](#71-redraw)
    2. [Search](#72-search)
       * [Search for a pattern](#721-search-for-a-pattern)
+      * [Search for a character in a line](#722-search-for-a-character-in-a-line)
+      * [Move to last context](#723-move-to-last-context)
+   3. [Advanced Edits](#73-advanced-edits)
+      * [Join Lines](#731-join-lines)
+      * [Case Toggling](#732-case-toggling)
+      * [Repeat last edit](#733-repeat-last-edit)
+   4. [Summary](#74-summary)
+   5. [Book Summary](#75-book-summary)
 
 
 <br />
