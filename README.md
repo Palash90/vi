@@ -98,16 +98,16 @@ Table of contents
    2. [Using a count](#32-using-a-count)
    3. [Summary](#33-summary) 
 4. [Basic Editing](#chapter-4)
-   1. Insert Mode
-   2. Ex Mode
-   3. Operator Commands
-      * Change Operator
-      * Delete Operator
-      * Yank Operator
-      * Put Operator
-   4. Operator with count
-   5. Whole Line Editing
-   6. Summary
+   1. [Insert Mode](#41-insert-mode)
+   2. [Ex Mode](#42-ex-mode)
+   3. [Operator Commands](#43-operator-commands)
+      * [Change Operator](#431-change-operator)
+      * [Delete Operator](#432-delete-operator)
+      * [Yank Operator](#433-yank-operator)
+      * [Put Operator](#434-put-operator)
+   4. [Operator with count](#44-operator-with-count)
+   5. [Whole Line Editing](#45-whole-line-editing)
+   6. [Summary](#46-summary)
 5. [Some Shortcuts](#chapter-5)
    1. Undo Change
    2. Replace
