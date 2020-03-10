@@ -1558,6 +1558,7 @@ You can remember the following table for change shortcuts -
 | cc                 | S               |
 +--------------------------------------+ 
 ```
+
 5.5 Shortcut for Save and Quit
 ------------------------------
 While we are talking about shorcuts, this one deserves a
@@ -1571,6 +1572,7 @@ with `<Esc> ZZ`. `ZZ` is easier to type than `:wq`.
 | <Esc>:wq           | <Esc>ZZ         | 
 +--------------------------------------+
 ```
+
 5.6 Appending text
 ------------------
 There are instances, you need to add text after the cursor.
@@ -1609,6 +1611,7 @@ You can also add text in the beginning of a line by using
 | 0i                 | I               |
 +--------------------------------------+
 ```
+
 5.7 New Lines 
 -------------
 In some cases, you may have to add a new line in between two
