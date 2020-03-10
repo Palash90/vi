@@ -138,7 +138,7 @@ Table of contents
       * [Moving by paragraphs](#662-moving-by-paragraphs)
       * [Moving by matching brackets](#663-moving-by-matching-brackets)
       * [Moving to a particular column in line](#664-moving-to-a-particular-column-in-line)
-   7. [Summary](#67-sumamry)
+   7. [Summary](#67-summary)
 
 
 <br />
