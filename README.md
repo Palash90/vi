@@ -1914,15 +1914,15 @@ Till now we have seen many movement and editing commands in Vi editor, which wil
 7.1 Redraw
 -----------
 
-While using vi editor on network streams or when vi opens a temporary buffer during usage of other shell command (`git commit` is a popular example), it is possible that vi shows some junk characters along with the original buffer content. It confuses the user. This is a rare scenario these days but still possible. In such cases, you can use `Ctrl + L` key combination to redraw the screen with actual content, vi discards all garbage characters shown by shell.
+Vi is a shell based editor. Which means that, the visual interface is built on top of shell. So, while using vi editor on slow shell or slow and heavy network text streams or when vi opens a temporary buffer during usage of other shell command (`git commit` is a popular example), it is possible that vi shows some junk characters along with the buffer content. It confuses the user. This is a rare scenario these days but still possible. In such cases, you can use `Ctrl + L` key combination to redraw the screen with actual content, vi discards all garbage characters introduced by shell.
 
 7.2 Search
 -----------
 
-Searching within text is very common in text editing. Vi editor provides some search commands that you can employ to quickly navigate to the location where the search character or pattern is in the file and search in forward and backward direction. The search also works with Regular Expression. So, if you want to search with a particular regular expression pattern, you can use this feature. Keep in mind while searching that, vi editor search is case sensitive. So, `D` and `d` are different and yields different search results.
+Searching within text is very common in text editing. Vi editor provides some search commands that you can employ to quickly navigate to the location where the search character or pattern is present and search in forward and backward direction. The search also works with Regular Expression. So, if you want to search with a particular regular expression pattern, you can use this feature. Keep in mind while searching that, vi editor search is case sensitive. So, `D` and `d` are different and yields different search results.
 
 ### 7.2.1 Search for a pattern
-Vi editor gives you flexibility to search for a pattern in the file. To use this feature, you need to be in normal mode. Press `Esc` twice to make sure you are in normal mode and press `/`. If you already had searched something earlier, hitting `Enter` will repeat the same search. If there was not a search pattern used earlier, you will see a message at the bottomm of your screen.  
+Vi editor gives you flexibility to search for a pattern in the file. To use this feature, you need to be in normal mode. Press `Esc` twice to make sure you are in normal mode and press `/`. If you already searched something earlier, hitting `Enter` will repeat the same search. If there was no search pattern used earlier, you will see a message at the bottomm of your screen.  
 
 
 If you want to start a new search, change to normal mode and type `/` and type the pattern you want to search and hit `Enter`, if there exists a pattern, the cursor will navigate to the start of the pattern. Otherwise, it will show a message that pattern could not be found. This command searches for the pattern in forward direction. So, it will find the next occurence of the pattern in the file. If the cursor is already at the last character of the file, then it wraps and starts the search from the start of the file. 
