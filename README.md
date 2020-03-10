@@ -118,8 +118,8 @@ Table of contents
    7. [New Lines](#57-new-lines) 
    8. [Summary](#58-summary)
 6. [Advanced Movements](#chapter-6)
-   1. Move by screens
-      * Forward one screen
+   1. [Move by screens](#61-move-by-screens)
+      * [Forward one screen](#611-forward-one-screen)
       * Backward one screen
       * Forward half screen
       * Backward half screen
@@ -1299,7 +1299,7 @@ Some Shortcuts
 It is actually boring and frustrating to edit a lot of
 text. While manipulating text, user can employ some shortcuts to
 ease some tasks. At times, these save users from repetitive
-tasks and some of them are better to there long
+tasks and some of them are better to there longer
 counterparts. In this chapter, we will discover some of
 these time saving shortcuts. 
 
