@@ -1932,7 +1932,6 @@ The search works in two directions, forward and backward. To go to the next occu
 The `/` command searches for a pattern in forward direction by default. To find previous occurence, you need `N`. To ease the process, vi editor provided `?` command which searches for a pattern in backward direction, so you will see the previous occurence of the search pattern. To see the next occurence of the patten used in `?`, you need to type `N`.  
 
 So searching of pattern works in different ways -
-
 `/` works in forward direction and `n` shows the next occurence of search pattern in the file.  
 `/` with `N` shows the previous occurence of search pattern in the file.  
 `?` works in backward direction and `n` shows the previous occurence of search pattern in the file.   
