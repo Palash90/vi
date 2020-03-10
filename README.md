@@ -282,6 +282,7 @@ vim editor.
 
 ### Chapter 2
 -------------
+
 vi Editor
 =========
 In earlier days of Unix, only text editor available was
