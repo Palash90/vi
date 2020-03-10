@@ -755,7 +755,7 @@ for future reference.
 |To first non-blank character of       |  ^         | 
 |current line                          |            |
 |--------------------------------------|------------|
-|To first non-blank character of next  |  + or      |   
+|To first non-blank character of next  |  + or      | 
 |line                                  |  <Enter>   |
 |--------------------------------------|------------|
 |To first non-blank character of       |  -         | 
@@ -1953,5 +1953,103 @@ There is another variant of the search which finds the character and places the 
 
 ### 7.2.3 Move to last context
 
-While searching is a useful feature in vi, searching here and there and returning to the last position can be daunting task to perform, especially in case of large text files. Vi provides a useful feature to handle this scenario. Vi will remember the last location of the search that it performed and you can go to that location and move back to the last edit location, to use this feature, use ``` `` ``` in normal mode.    
+While searching is a useful feature in vi, searching here and there and returning to the last position can be daunting task to perform, especially in case of large text files. Vi provides a useful feature to handle this scenario. Vi will remember the last location of the search that it performed and you can go to that location and move back to the last edit location, to use this feature, use ``` `` ``` in normal mode. This will move between last search location and last edit location.  
+
+ 
+7.3 Advanced Edits
+-------------------
+
+The basic commands cover almost all the required editing you have to do on a regular basis, however there are three more edit commands, that proves to be highly useful while doing heavy text processing.
+
+### 7.3.1 Join Lines
+
+This commands is useful when you have many lines and want to join them together. To use this feature, change to normal mode and move to the line you want to append and type `J`. The next line will be appended to this line.
+
+7.3 Advanced Edits
+-------------------
+
+The basic commands cover almost all the required editing you have to do on a regular basis, however there are three more edit commands, that proves to be highly useful while doing heavy text processing.
+
+### 7.3.1 Join Lines
+
+This commands is useful when you have many lines and want to join them together. To use this feature, change to normal mode and move to the line you want to append and type `J`. The next line will be appended to this line.
+
+7.3 Advanced Edits
+-------------------
+
+The basic commands cover almost all the required editing you have to do on a regular basis, however there are three more edit commands, that proves to be highly useful while doing heavy text processing.
+
+### 7.3.1 Join Lines
+
+This commands is useful when you have many lines and want to join them together. To use this feature, change to normal mode and move to the line you want to append and type `J`. The next line will be appended to this line.
+
+### 7.3.2 Case Toggling
+
+This makes more sense to programmers. At times, we misspell keywords and many of the times, it is because of Case. So, `for` becomes `For`. Or for text editing of huge texts, we may forget to capitalize the first letter of a sentence. This feature is fairly useful in these cases. To use this feature, change to normal mode and move to the location of the character you want to change its case and hit `~`. This will toggle the case of the letter.
+
+### 7.3.3 Repeat last edit
+
+Vi remembers the last edit action we performed and it can repeat that action. To use this feature, change to normal mode and type `.` and it will perform the last edit action.
+
+7.4 Summary
+-----------
+
+In this chapter we saw some advance usage of vi editor. Vi editor basic commands provides a full array of edit and movement commands. These new set can help you do text processing quickly. Following is the summary of all the commands we reviewed in this chapter.
+
+```
++==============================================================+	
+|       	Summary of advanced commands                   |
+|==============================================================|
+|Action                                             | Command  |
+|---------------------------------------------------|----------|
+|Redraw the screen                                  | ^L       |
+|---------------------------------------------------|----------|
+|Search forward for pattern                         | /pattern |
+|---------------------------------------------------|----------|
+|Search backward for pattern                        | ?pattern |
+|---------------------------------------------------|----------|
+|Repeat last search                                 | n        |
+|---------------------------------------------------|----------|
+|Repeat last search in opposite direction           | N        |
+|---------------------------------------------------|----------|
+|Repeat last search forward                         | /        |
+|---------------------------------------------------|----------|
+|Repeat last search backward                        | ?        |
+|---------------------------------------------------|----------|
+|Move to next occurrence of x in current line       | fx       |
+|---------------------------------------------------|----------|
+|Move to previous occurrence of x in current line   | Fx       |
+|---------------------------------------------------|----------|
+|Move to just before next occurrence of x in current| tx       |
+|line     					    |          |
+|---------------------------------------------------|----------|
+|Move to just after previous occurrence of x in     | Tx       |
+|current line					    |          |
+|---------------------------------------------------|----------|
+|Repeat previous find command in same direction     | ;        |
+|---------------------------------------------------|----------|
+|Repeat previous find command in opposite           | ,        |
+|direction					    |          |
+|---------------------------------------------------|----------|
+|Return to previous mark or context                 | ``       |
+|---------------------------------------------------|----------|
+|Join current and next line                         |     J    |
+|---------------------------------------------------|----------|
+|Toggle case                                        |     ~    |
+|---------------------------------------------------|----------|
+|Repeat last action                                 |     .    |
++---------------------------------------------------|----------+
+
+```
+
+7.5 Book Summary
+----------------
+
+This book was devoted to the essential commands that a user needs while using vi editor for his day to day works. There are many commands vi editor provides. A user may not need to remember all of them, he/she may choose to use only a handful of commands that he/she is comfortable using. With time and practice, a user advances his/her vi skill and once he/she is comfortable with a set of commands, can progress for a new set of commands.  
+
+This book just scratches the surface of using vi editor and provides all the bare essential commands to survive. There exists many clones of vi(the most popular being `Vim`). So, interested reader can contiue there learning path on vi-like editors like `Vim`, `nvi`, `elvis` or `vile`.
+
+
+
+
 
