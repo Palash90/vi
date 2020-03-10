@@ -140,6 +140,11 @@ Table of contents
       * [Moving to a particular column in line](#664-moving-to-a-particular-column-in-line)
    7. [Summary](#67-summary)
 
+7. [Advanced Vi](#chapter-7)
+   1. [Redraw](#71-redraw)
+   2. [Search](#72-search)
+      * [Search for a pattern](#721-search-for-a-pattern)
+
 
 <br />
 <br />
@@ -1956,24 +1961,6 @@ There is another variant of the search which finds the character and places the 
 While searching is a useful feature in vi, searching here and there and returning to the last position can be daunting task to perform, especially in case of large text files. Vi provides a useful feature to handle this scenario. Vi will remember the last location of the search that it performed and you can go to that location and move back to the last edit location, to use this feature, use ``` `` ``` in normal mode. This will move between last search location and last edit location.  
 
  
-7.3 Advanced Edits
--------------------
-
-The basic commands cover almost all the required editing you have to do on a regular basis, however there are three more edit commands, that proves to be highly useful while doing heavy text processing.
-
-### 7.3.1 Join Lines
-
-This commands is useful when you have many lines and want to join them together. To use this feature, change to normal mode and move to the line you want to append and type `J`. The next line will be appended to this line.
-
-7.3 Advanced Edits
--------------------
-
-The basic commands cover almost all the required editing you have to do on a regular basis, however there are three more edit commands, that proves to be highly useful while doing heavy text processing.
-
-### 7.3.1 Join Lines
-
-This commands is useful when you have many lines and want to join them together. To use this feature, change to normal mode and move to the line you want to append and type `J`. The next line will be appended to this line.
-
 7.3 Advanced Edits
 -------------------
 
