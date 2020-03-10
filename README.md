@@ -2042,7 +2042,7 @@ In this chapter we saw some advance usage of vi editor. Vi editor basic commands
 
 This book was devoted to the essential commands that a user needs while using vi editor for his day to day works. There are many commands vi editor provides. A user may not need to remember all of them, he/she may choose to use only a handful of commands that he/she is comfortable using. With time and practice, a user advances his/her vi skill and once he/she is comfortable with a set of commands, can progress for a new set of commands.  
 
-This book just scratches the surface of using vi editor and provides all the bare essential commands to survive. There exists many clones of vi(the most popular being `Vim`). So, interested reader can contiue there learning path on vi-like editors like `Vim`, `nvi`, `elvis` or `vile`.
+This book just scratches the surface of using vi editor and provides all the bare essential commands to survive. There exists many clones of vi(the most popular being `Vim`). So, interested reader can contiue there learning on vi-like editors like `Vim`, `nvi`, `elvis` or `vile`.
 
 
 
