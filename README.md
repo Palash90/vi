@@ -73,7 +73,7 @@ International License</a>.
 Table of contents
 =================
 
-1. Introduction
+1. [Introduction](#chapter-1)
    1. The importance of vi
    2. What all this book covers
    3. Who should read this book
@@ -82,14 +82,14 @@ Table of contents
       * Prerequisite
    6. Feedback is important 
    7. Colophon
-2. Vi Editor
+2. [Vi Editor](#chapter-2)
    1. Modes in vi
       * Normal Mode
       * Insert Mode
       * ex mode
    2. Let's get started
       * Some Notes
-3. Basic Movements
+3. [Basic Movements](#chapter-3)
    1. The movement commands
    2. Move by characters
       * Alternatives to hjkl
@@ -97,7 +97,7 @@ Table of contents
       * Move by Words
    3. Using a count
    4. Summary 
-4. Basic Editing
+4. [Basic Editing](#chapter-4)
    1. Insert Mode
    2. Ex Mode
    3. Operator Commands
@@ -108,7 +108,7 @@ Table of contents
    4. Operator with count
    5. Whole Line Editing
    6. Summary
-5. Some Shortcuts
+5. [Some Shortcuts](#chapter-5)
    1. Undo Change
    2. Replace
    3. Shortcuts for deletion 
@@ -117,7 +117,7 @@ Table of contents
    6. Appending text
    7. New Lines 
    8. Summary
-6. Advanced Movements
+6. [Advanced Movements](#chapter-6)
    1. Move by screens
       * Forward one screen
       * Backward one screen
