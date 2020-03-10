@@ -1933,9 +1933,9 @@ The `/` command searches for a pattern in forward direction by default. To find 
 
 So searching of pattern works in different ways -
 
-`/` works in forward direction and `n` shows the next occurence of search pattern in the file.
-`/` with `N` shows the previous occurence of search pattern in the file.
-`?` works in backward direction and `n` shows the previous occurence of search pattern in the file. 
+`/` works in forward direction and `n` shows the next occurence of search pattern in the file.  
+`/` with `N` shows the previous occurence of search pattern in the file.  
+`?` works in backward direction and `n` shows the previous occurence of search pattern in the file.   
 `?` with `N` shows the next occurence of search pattern in the file.  
 
 Like hitting `Enter` after `/` repeats the last search in the forward direction, hitting `Enter` after `?` repeats the last search in backward direction.  
