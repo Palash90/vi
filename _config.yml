@@ -1,3 +1,4 @@
+name: Vi Essentials
 theme: jekyll-theme-slate
 plugins:
   - jekyll-relative-links
