@@ -79,9 +79,9 @@ Table of contents
    3. [Who should read this book](#13-who-should-read-this-book)
    4. [Who should avoid this book](#14-who-should-avoid-this-book)
    5. [How to read this book](#15-how-to-read-this-book)
-      * Prerequisite
-   6. Feedback is important 
-   7. Colophon
+      * [Prerequisite](#151-prerequisite)
+   6. [Feedback is important](#16-feedback-is-important) 
+   7. [Colophon](#17-colophon)
 2. [Vi Editor](#chapter-2)
    1. Modes in vi
       * Normal Mode
