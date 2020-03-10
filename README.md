@@ -128,7 +128,7 @@ Table of contents
    2. [Moving within screen](#62-moving-within-screen)
    3. [Moving to a particular line](#63-moving-to-a-particular-line)
    4. [Adjusting the cursor](#64-adjusting-the-cursor)
-   5. [Some ex commands to help viewing](#65-some-ex-commnds-to-help-viewing)
+   5. [Some ex commands to help viewing](#65-some-ex-commands-to-help-viewing)
       * [Line Number](#651-line-number)
       * [Jump to line](#652-jump-to-line) 
       * [View which line you are in](#653-view-which-line-you-are-in)
