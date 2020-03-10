@@ -109,14 +109,14 @@ Table of contents
    5. [Whole Line Editing](#45-whole-line-editing)
    6. [Summary](#46-summary)
 5. [Some Shortcuts](#chapter-5)
-   1. Undo Change
-   2. Replace
-   3. Shortcuts for deletion 
-   4. Shortcuts for change
-   5. Shortcut for Save and Quit
-   6. Appending text
-   7. New Lines 
-   8. Summary
+   1. [Undo Change](#51-undo-change)
+   2. [Replace](#52-replace)
+   3. [Shortcuts for deletion](#53-shortcuts-for-deletion) 
+   4. [Shortcuts for change](#54-shortcuts-for-change)
+   5. [Shortcut for Save and Quit](#55-shortcuts-for-save-and-quit)
+   6. [Appending text](#56-appending-text)
+   7. [New Lines](#57-new-lines) 
+   8. [Summary](#58-summary)
 6. [Advanced Movements](#chapter-6)
    1. Move by screens
       * Forward one screen
