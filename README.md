@@ -41,7 +41,7 @@ src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
 href="http://purl.org/dc/dcmitype/Text" property="dct:title"
 rel="dct:type">Vi Essentials</span> by <span
 xmlns:cc="http://creativecommons.org/ns#"
-property="cc:attributionName">Palash Kanti Kundu</span>
+property="cc:attributionName">Palash Kanti </span>
 is licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
 Commons Attribution-NonCommercial-NoDerivatives 4.0
@@ -59,8 +59,8 @@ International License</a>.
 Table of contents
 =================
 
-1. [Introduction](#chapter-1)
-   1. [The importance of vi](#11-the-importance-of-vi)
+1. Introduction
+   1. The importance of vi
    2. What all this book covers
    3. Who should read this book
    4. Who should avoid this book
@@ -130,7 +130,7 @@ Table of contents
 ---------------
 
 Introduction
-============
+=============
 Working with text is pretty common in Computer Systems. All
 programs are written in plain text, many
 configuration files are written in plain text. Also for
@@ -240,21 +240,20 @@ process until you have finished.
 1.6 Feedback is important
 -------------------------
 This book is an ongoing project, if you find any mistake or
-you have a suggestion please raise an issue [here](https://github.com/palash90/vi/issues).
+you have a suggestion please raise an issue [here](https://github.com/palash90/vi/issues). 
 Your changes and suggestions may get into future releases.
 
 1.7 Colophon
 -------------
 This book is written using VIM - Vi Improved 7.4 on a
 Lenovo G50-70 laptop running Linux Mint 18.1 Cinnamon 64
-bit. All the movements and operators have been tested in vi,nvi, vile and
+bit and later moved to Ubuntu 19.04 64 bit. All the movements and operators have been tested in vi, nvi, vile and
 vim editor.
 
 
 
 ### Chapter 2
 -------------
-
 vi Editor
 =========
 In earlier days of Unix, only text editor available was
@@ -510,7 +509,7 @@ movement commands on it.
 +----------------------------------------------------------+
 ```
 ### 3.1.1 Move by characters
-While you have opened the file in vi editor, the 
+When you open a file in vi editor, the 
 cursor resides at the first character of the file. 
 Press `<Esc>` key once just to make sure, you are in
 normal mode.
@@ -565,7 +564,7 @@ line up or down with this combination.
 Once you are comfortable moving by characters, now
 it's time to move in the line and out of the line. 
 The following line level movements can be performed
-in vi editor normal mode -  
+in vi editor normal mode   
 ```
 0 - move to the first character of the line
 $ - move to the end of the line
@@ -585,7 +584,7 @@ word and change it.
 To do so, there are commands to move back and forth 
 between words in vi editor.
 These are the three basic word movement commands to be
-used in normal mode -  
+used in normal mode   
 ```
 w - cursor moves to the first character of the next word  
 e - cursor moves to the last character of the  
@@ -610,8 +609,7 @@ the difference.
 
 Let's have a quick hands-on of these movement commands. To
 do this, open vi editor with a file full of text or download
-this one and open in vi-
-https://github.com/weathered-paperweight/vi-essentials/blob/master/data.txt
+[this file](https://github.com/palash90/vi/blob/master/data.txt) and open in vi.
 
 Move to the directory you have downloaded the file and open
 using vi -  
@@ -620,7 +618,7 @@ using vi -
 |$ vi data.txt                                          |
 +-------------------------------------------------------+
 ```
-This will open the file with the content of the file-  
+This will open vi editor with the content of the file-  
 ```
 +-----------------------------------------------------------+
 |In its simplest form, Data is a collection of information. |
@@ -681,14 +679,13 @@ you in _Insert Mode_, immediately hit `<Esc>` key or
 
 Once you are accustomed to the basic movements, try the
 other movement commands, like `0`, `$`, `+`, `<Enter>`, `^`,
-`-`, `w`, `e`, `b`, `B`, `E`, `W`. Try to understand them by
-using them on a real text file. It will be automatic after
-sometime.  
+`-`, `w`, `e`, `b`, `B`, `E`, `W`. Try to understand the commands by
+using them on a text file with huge number of lines and they will be your second nature eventually.
 
 3.2 Using a count
 -----------------
 While it is possible to traverse the whole file with these
-simple commands only but you can actually make the movements
+simple commands, you can actually make the movements
 extremely fast by simply putting a count in front of the
 motion command. For example, if you want to move 9 lines below,
 you can press `j` 9 times or you can use `9j`, the cursor
