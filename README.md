@@ -70,7 +70,7 @@ International License</a>.
 
 
 
-Table of contents
+Table of Contents
 =================
 
 1. [Introduction](#chapter-1)
@@ -105,7 +105,7 @@ Table of contents
       * [Delete Operator](#432-delete-operator)
       * [Yank Operator](#433-yank-operator)
       * [Put Operator](#434-put-operator)
-   4. [Operator with count](#44-operator-with-count)
+   4. [Operator with Count](#44-operator-with-count)
    5. [Whole Line Editing](#45-whole-line-editing)
    6. [Summary](#46-summary)
 5. [Some Shortcuts](#chapter-5)
@@ -118,22 +118,22 @@ Table of contents
    7. [New Lines](#57-new-lines) 
    8. [Summary](#58-summary)
 6. [Advanced Movements](#chapter-6)
-   1. [Move by screens](#61-move-by-screens)
+   1. [Move by Screens](#61-move-by-screens)
       * [Forward one screen](#611-forward-one-screen)
       * [Backward one screen](#612-backward-one-screen)
       * [Forward half screen](#613-forward-half-screen)
       * [Backward half screen](#614-backward-half-screen)
       * [Scroll forward one line](#615-scroll-forward-one-line)
       * [Scroll backward one line](#616-scroll-backward-one-line)
-   2. [Moving within screen](#62-moving-within-screen)
-   3. [Moving to a particular line](#63-moving-to-a-particular-line)
-   4. [Adjusting the cursor](#64-adjusting-the-cursor)
-   5. [Some ex commands to help viewing](#65-some-ex-commands-to-help-viewing)
-      * [Line Number](#651-line-number)
+   2. [Moving within a Screen](#62-moving-within-screen)
+   3. [Moving to a Particular Line](#63-moving-to-a-particular-line)
+   4. [Adjusting the Cursor](#64-adjusting-the-cursor)
+   5. [Some ex Commands to Help Viewing](#65-some-ex-commands-to-help-viewing)
+      * [Line number](#651-line-number)
       * [Jump to line](#652-jump-to-line) 
       * [View which line you are in](#653-view-which-line-you-are-in)
       * [View total number of lines](#654-view-total-number-of-lines)
-   6. [Some more movements](#66-some-more-movements)
+   6. [Some More Movements](#66-some-more-movements)
       * [Moving by sentences](#661-moving-by-sentences)
       * [Moving by paragraphs](#662-moving-by-paragraphs)
       * [Moving by matching brackets](#663-moving-by-matching-brackets)
@@ -186,18 +186,18 @@ improved) for editing text.
 
 1.1 The importance of vi
 ------------------------
-While there are many text editors available (Both GUI Based
-and Text Based), vi is pretty popular in \*nix community.
-Reasons behind this are following -  
- 1. vi editor is standardized by POSIX, so any POSIX compliant
-    system must have this editor. Thus it can be life saver
+While there are many text editors available (both GUI-based
+and text-based), vi is pretty popular in the \*nix community.
+The reasons behind this are the following:
+ 1. The vi editor is standardized by POSIX, so any POSIX compliant
+    system must have this editor. Thus it can be a life saver
     at times when you have to perform some text editing but you
     do not have any other option available to you.
  2. Also if you are connecting to other machine using ssh,
     no GUI based editor will work. So, vi can be used to
     edit files in remote systems as and when required.
  3. vi is extremely fast and runs on low resources.
- 4. While using vi editor users need not use mouse and there
+ 4. While using the vi editor, users need not use a mouse and there
     are very few control key combination required in vi.
     This saves a lot of time.
  5. As vi is available everywhere and many Unix/Linux users use this
@@ -205,10 +205,10 @@ Reasons behind this are following -
     So, day to day job becomes easier.  
 
 Due to the reasons mentioned above, many programmers and
-system administrators rely on vi editor.
+system administrators rely on the vi editor.
 
-1.2 What all this book covers
------------------------------
+1.2 What This Book Covers
+-------------------------
 This book is mainly focused on the basic commands of vi
 editor, which is available in any other improved version of
 vi like vim, nvi, elvis etc. So, all the commands and
@@ -533,8 +533,8 @@ to file.
 #### Chapter 3
 ---------------
 
-Basic Movements
-===============
+Basic Movement
+==============
 Moving around the contents of a file is the most common
 thing anyone does. Once you have opened a file and want to
 change its contents, you must move cursor to exact location
