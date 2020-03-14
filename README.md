@@ -740,8 +740,9 @@ In this chapter we learnt a lot about moving around the file
 content. So, it is better to jot them down and make a table
 for future reference.
 
-|              Summary of  Movements                |
-|---------------------------------------------------|
+*Summary of  Movements*
+
+
 |Movement                              |  Commands  |
 |--------------------------------------|------------|
 |left arrow, down arrow, up arrow,     |  h, j, k, l|
