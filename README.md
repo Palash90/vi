@@ -119,13 +119,13 @@ Table of Contents
    8. [Summary](#58-summary)
 6. [Advanced Movements](#chapter-6)
    1. [Move by Screens](#61-move-by-screens)
-      * [Forward one screen](#611-forward-one-screen)
-      * [Backward one screen](#612-backward-one-screen)
-      * [Forward half screen](#613-forward-half-screen)
-      * [Backward half screen](#614-backward-half-screen)
-      * [Scroll forward one line](#615-scroll-forward-one-line)
-      * [Scroll backward one line](#616-scroll-backward-one-line)
-   2. [Moving within a Screen](#62-moving-within-screen)
+      * [Forward one Screen](#611-forward-one-screen)
+      * [Backward one Screen](#612-backward-one-screen)
+      * [Forward half Screen](#613-forward-half-screen)
+      * [Backward half Screen](#614-backward-half-screen)
+      * [Scroll forward One Line](#615-scroll-forward-one-line)
+      * [Scroll backward One Line](#616-scroll-backward-one-line)
+   2. [Moving within Screen](#62-moving-within-screen)
    3. [Moving to a Particular Line](#63-moving-to-a-particular-line)
    4. [Adjusting the Cursor](#64-adjusting-the-cursor)
    5. [Some ex Commands to Help Viewing](#65-some-ex-commands-to-help-viewing)
@@ -186,18 +186,18 @@ improved) for editing text.
 
 1.1 The importance of vi
 ------------------------
-While there are many text editors available (both GUI-based
-and text-based), vi is pretty popular in the \*nix community.
-The reasons behind this are the following:
- 1. The vi editor is standardized by POSIX, so any POSIX compliant
-    system must have this editor. Thus it can be a life saver
+While there are many text editors available (Both GUI Based
+and Text Based), vi is pretty popular in \*nix community.
+Reasons behind this are following -  
+ 1. vi editor is standardized by POSIX, so any POSIX compliant
+    system must have this editor. Thus it can be life saver
     at times when you have to perform some text editing but you
     do not have any other option available to you.
  2. Also if you are connecting to other machine using ssh,
     no GUI based editor will work. So, vi can be used to
     edit files in remote systems as and when required.
  3. vi is extremely fast and runs on low resources.
- 4. While using the vi editor, users need not use a mouse and there
+ 4. While using vi editor users need not use mouse and there
     are very few control key combination required in vi.
     This saves a lot of time.
  5. As vi is available everywhere and many Unix/Linux users use this
@@ -205,10 +205,10 @@ The reasons behind this are the following:
     So, day to day job becomes easier.  
 
 Due to the reasons mentioned above, many programmers and
-system administrators rely on the vi editor.
+system administrators rely on vi editor.
 
-1.2 What This Book Covers
--------------------------
+1.2 What all this book covers
+-----------------------------
 This book is mainly focused on the basic commands of vi
 editor, which is available in any other improved version of
 vi like vim, nvi, elvis etc. So, all the commands and
@@ -533,8 +533,8 @@ to file.
 #### Chapter 3
 ---------------
 
-Basic Movement
-==============
+Basic Movements
+===============
 Moving around the contents of a file is the most common
 thing anyone does. Once you have opened a file and want to
 change its contents, you must move cursor to exact location
@@ -1149,7 +1149,7 @@ The text shold look like the following -
 +-----------------------------------------------------+
 ```
 
-4.4 Operator with count
+4.4 Operator with Count
 -----------------------
 Edit operators work on text objects (which are text based on
 the cursor movement). So, if you want to delete 2 words on
@@ -1686,7 +1686,7 @@ viewing purpose etc. These will make your editing faster
 than before. Remember, these all are movement commands. So,
 all of them work in Normal mode.
 
-6.1 Move by screens
+6.1 Move by Screens
 -------------------
 Earlier we have seen how to move by lines, characters, words
 etc. Using these movements you can move anywhere in the
@@ -1738,7 +1738,7 @@ Scrolling backward one line is achieved using  `Ctrl+Y`.
 Try these scroll commands in Normal mode while using vi
 editor. These are real time savers.
 
-6.2 Moving within screen
+6.2 Moving within Screen
 ------------------------
 Scrolling is useful when you want to quickly move between
 screens. But what about moving within a screen?  
@@ -1753,7 +1753,7 @@ line from the top, you can use `4H`, it will move the cursor
 to the fourth line from top. To move to 5 lines above the
 bottom, you use `5L`.
 
-6.3 Moving to a particular line
+6.3 Moving to a Particular Line
 -------------------------------
 If you want to move to a particular line, you can do so in
 vi editor. This is quite useful for programmers who get
@@ -1784,7 +1784,7 @@ z<Enter> - moves the current line to the top of the  screen
            and scrolls accordingly
 ```
 
-6.5 Some ex commands to help viewing
+6.5 Some ex Commands to Help Viewing
 ------------------------------------
 At this point, it can be safely assumed that, you are pretty
 familiar with vi editor and you can employ vi editor to do a 
@@ -1796,7 +1796,7 @@ screen movement, line jump commands etc., it is
 really convenient to see the line number the cursor is in.
 You can use commands in `ex` mode to view line details of
 file.
-### 6.5.1 Line Number
+### 6.5.1 Line number
 Till now we have used ex commands to save files and/or
 exit editor. Now we'll learn how to use ex commands to
 change the behavior of the editor. These are also known
@@ -1842,7 +1842,7 @@ is `:=`
 `Ctrl+G` shows the combined output of this command and 
 the previous one.
 
-6.6 Some more movements
+6.6 Some More Movements
 -----------------------
 Until now we have discussed a lot of movement commands. We are
 only left with a few commands which we'll cover in this
