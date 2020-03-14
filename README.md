@@ -1145,13 +1145,8 @@ For saving or discrading changes, use the following ex commands -
 |:w! [file name]| If the file exists with name 'file name', the file is overwritten with the content otherwise, a new file is created. Please be careful while using this command. Improper use of this can loss existing data |
 |:q             | This is Quit command. So, it will try to quit the editor. But will show an error mentioning that the  content of the buffer is not saved. If there is no change It quits the edior and returns to shell |
 |:wq            | Combined Save and Quit Command. So, if vi is opened with no file input, it will try to save the content but as no file name is mentioned, it cannot save the buffer content and will show error. If vi is opened with an existing file, it will save the changes to the file. If vi is opened with an input as a file name that does not exist, the file is created and the content is saved into file|
-|:wq [file name]| Combined Save and Quit Command. So, the   |
-|               | content will be saved to file named 'file |
-|               | name' and quit the editor.                |
-|:e!            | This command is issued to discard the     |
-|               | changes. As we started with empty file,   | 
-|               | a blank screen will be shown discarding   |
-|               | all the changes.                          |
+|:wq [file name]| Combined Save and Quit Command. So, the content will be saved to file named 'file  name' and quit the editor. |
+|:e!            | This command is issued to discard the changes. As we started with empty file, a blank screen will be shown discarding all the changes. |
 |:q!            | Will discard the changes and exit vi      |
 
 `p` pastes the content of buffer in the cursor location, on the
