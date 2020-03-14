@@ -866,14 +866,10 @@ command and hit `<Enter>` key and the command gets executed.
 There are many commands you can use in ex mode but for our
 current purpose, we can use either of the following -
 
-|  Command      |   Action                                  |
-|---------------|-------------------------------------------|
-|:w [file name] | This is Save Command. A new file is created with name 'file name' and the buffer content is saved in the file. If the file exists, it won't allow you to save. |
-|:w! [file name]| If the file exists with name 'file name', |
-|               | the file is overwritten with the content  |
-|               | otherwise, a new file is created. Please  |
-|               | be careful while using this command. Im-  |
-|               | proper use of this can loss existing data |
+|  Command        |   Action                                  |
+|-----------------|-------------------------------------------|
+| :w [file name]  | This is Save Command. A new file is created with name 'file name' and the buffer content is saved in the file. If the file exists, it won't allow you to save. |
+| :w! [file name] | If the file exists with name 'file name', the file is overwritten with the content otherwise, a new file is created. Please be careful while using this command. Improper use of this can loss existing data |
 |:q             | This is Quit command. So, it will try to  |
 |               | quit the editor. But will show an error   |
 |               | mentioning that the  content of the       |
