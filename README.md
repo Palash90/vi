@@ -1137,18 +1137,12 @@ _Edit commands_
 |To beginning of line                | c0                         | d0                         | y0                         |
 |One line                            | cc or 0c$                  | dd or 0d$                  | yy or 0y$                  |
 
-For saving or discrading changes, use the following ex 
-commands -
-```
-+-----------------------------------------------------------+
+For saving or discrading changes, use the following ex commands -
+
 |  Command      |   Action                                  |
 |---------------|-------------------------------------------|
-|:w [file name] | This is Save Command. A new file is       |
-|               | created with name 'file name' and the     |
-|               | buffer content is saved in the file.      |
-|               | If the file exists, it won't allow        |
-|               | you to save.                              |
-|---------------|-------------------------------------------|
+|:w [file name] | This is Save Command. A new file is created with name 'file name' and the buffer content is saved in the file.       If the file exists, it won't allow you to save. |
+
 |:w! [file name]| If the file exists with name 'file name', |
 |               | the file is overwritten with the content  |
 |               | otherwise, a new file is created. Please  |
@@ -1183,7 +1177,7 @@ commands -
 |---------------|-------------------------------------------|
 |:q!            | Will discard the changes and exit vi      |
 +-----------------------------------------------------------+
-```
+
 `p` pastes the content of buffer in the cursor location, on the
 other hand `P` pastes the contents of buffer on the left of 
 the cursor. If you copied whole line using `cc` or `dd` or
