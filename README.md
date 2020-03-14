@@ -89,7 +89,7 @@ Table of Contents
       * [ex mode](#213-ex-mode)
    2. [Let's get started](#22-lets-get-started)
       * [Some Notes](#221-some-notes)
-3. [Basic Movements](#chapter-3)
+3. [Basic Movement](#chapter-3)
    1. [The movement commands](#31-the-movement-commands)
       1. [Move by characters](#311-move-by-characters)
       2. [Alternatives to hjkl](#312-alternatives-to-hjkl)
@@ -533,8 +533,8 @@ to file.
 #### Chapter 3
 ---------------
 
-Basic Movements
-===============
+Basic Movement
+==============
 Moving around the contents of a file is the most common
 thing anyone does. Once you have opened a file and want to
 change its contents, you must move cursor to exact location
