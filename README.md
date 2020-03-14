@@ -1410,7 +1410,7 @@ shortcut for that too. You can use `D` for the same effect.
 You can remember the following table of shortcuts -
 
 | Longer Version     | Shorcut         |
-|--------------------------------------|
+|--------------------|-----------------|
 | dl                 | x               |
 | dh                 | X               |
 | d$                 | D               |
