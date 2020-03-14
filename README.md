@@ -743,13 +743,12 @@ for future reference.
 *Summary of  Movements*
 
 
-|Movement                                      |  Commands  |
-|----------------------------------------------|------------|
-|left arrow, down arrow, up arrow, right arrow |  h, j, k, l|
-|--------------------------------------|------------|
-|To first non-blank character of       |  ^         | 
-|current line                          |            |
-|--------------------------------------|------------|
+|Movement                                           |  Commands  |
+|---------------------------------------------------|------------|
+|left arrow, down arrow, up arrow, right arrow      |  h, j, k, l|
+|---------------------------------------------------|------------|
+|To first non-blank character of  current line      |      ^     | 
+|---------------------------------------------------|------------|
 |To first non-blank character of next  |  + or      | 
 |line                                  |  <Enter>   |
 |--------------------------------------|------------|
