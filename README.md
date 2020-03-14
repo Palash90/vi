@@ -1408,17 +1408,13 @@ Mode, you can use `<Backspace>`.
 To delete until the end of a line, we use `d$`. There is
 shortcut for that too. You can use `D` for the same effect.
 You can remember the following table of shortcuts -
-```
-+--------------------------------------+ 
+
 | Longer Version     | Shorcut         |
 |--------------------------------------|
 | dl                 | x               |
-|--------------------------------------|
 | dh                 | X               |
-|--------------------------------------| 
 | d$                 | D               |
-+--------------------------------------+
-```
+
 Remember that, the shortcuts also can be used to work with a
 count as well. So, `5x` will delete 5 characters on the right 
 of cursor and `5X` will delete 5 characters on the left of 
@@ -1433,17 +1429,12 @@ the line from cursor position and puts you in Insert mode.
 The shortcut command for `cc` is `S` which deletes the whole line
 and changes to Insert mode. 
 You can remember the following table for change shortcuts -
-```
-+--------------------------------------+ 
+
 | Longer Version     | Shorcut         |
 |--------------------------------------|
 | cl                 | s               |
-|--------------------------------------|
 | c$                 | C               |
-|--------------------------------------| 
 | cc                 | S               |
-+--------------------------------------+ 
-```
 
 5.5 Shortcut for Save and Quit
 ------------------------------
@@ -1451,13 +1442,11 @@ While we are talking about shorcuts, this one deserves a
 mention. When you want to save your changes to a file, you
 need `<Esc> :wq` which is a bit of typing, You can do the same
 with `<Esc> ZZ`. `ZZ` is easier to type than `:wq`.
-```
-+--------------------------------------+
+
 | Longer Version     | Shorcut         |
 |--------------------------------------|
 | <Esc>:wq           | <Esc>ZZ         | 
-+--------------------------------------+
-```
+
 
 5.6 Appending text
 ------------------
@@ -1486,17 +1475,13 @@ same way as `$a` does.
 
 You can also add text in the beginning of a line by using
 `I` command. Which is a shortcut for `0i`.
-```
-+--------------------------------------+
+
 | Longer Version     | Shorcut         |
 |--------------------------------------|
 | i<Right Arrow>     | a               |
-|--------------------------------------|
 | $i<Right Arrow>    | A               |
-|--------------------------------------|
 | 0i                 | I               |
-+--------------------------------------+
-```
+
 
 5.7 New Lines 
 -------------
@@ -1513,19 +1498,11 @@ current line and `O` to start a blank line above the current
 line. The editor is automatically changed to Insert Mode.
 
 The shortcut table for this is as follows-  
-```
-+----------------------------------------+
-| Longer Version                | Shorcut|
-|----------------------------------------|
-| $i<Right Arrow><Enter><Esc>j  | o      |
-|      or                       |        |
-| A<Enter><Esc>j                |        |
-|----------------------------------------|
-| 0i<Enter><Esc>k               | O      |
-|      or                       |        |
-|I<Enter><Esc>k                 |        |
-+----------------------------------------+
-```
+
+| Longer Version                                  | Shorcut|
+|-------------------------------------------------|--------|
+| $i<Right Arrow><Enter><Esc>j or A<Enter><Esc>j  | o      |
+| 0i<Enter><Esc>k or I<Enter><Esc>k               | O      |
 
 5.8 Summary 
 -----------
