@@ -739,10 +739,9 @@ commands to move three lines below to the end of the line.
 In this chapter we learnt a lot about moving around the file
 content. So, it is better to jot them down and make a table
 for future reference.
-```
-+===================================================+
+
 |              Summary of  Movements                |
-|===================================================|
+|---------------------------------------------------|
 |Movement                              |  Commands  |
 |--------------------------------------|------------|
 |left arrow, down arrow, up arrow,     |  h, j, k, l|
@@ -795,8 +794,8 @@ for future reference.
 |Move to the start of 5 lines above    |  5-        |
 |--------------------------------------|------------|
 |Move to the start of 6 lines below    |  6+        |
-+--------------------------------------|------------+
-```
+|--------------------------------------|------------|
+
 These are pretty much all the basic movement commands, using
 which you can move through a file. We'll look at other tools
 for movement. But you should be pretty much comfortable with
