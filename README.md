@@ -1445,7 +1445,7 @@ with `<Esc> ZZ`. `ZZ` is easier to type than `:wq`.
 
 | Longer Version     | Shorcut         |
 |--------------------|-----------------|
-| <Esc>:wq           | <Esc>ZZ         | 
+| `Esc`:wq           | `Esc`ZZ         | 
 
 
 5.6 Appending text
