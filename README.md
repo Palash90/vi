@@ -827,10 +827,8 @@ to the buffer content and you will see the change immediately.
 Let's start with an empty file, we'll add some content in
 it and save it.  
 ```
-+---------------------------------------------------------+
-|$ cd ~/vi-essentials/                                    |
-|$ vi                                                     |
-+---------------------------------------------------------+
+$ cd ~/vi-essentials/                                    
+$ vi                                                     
 ```
 This will open the vi editor like we've seen earlier. Now
 hit `i`. The editor will enter the Insert mode. Some clones
@@ -867,8 +865,7 @@ command and hit `<Enter>` key and the command gets executed.
 
 There are many commands you can use in ex mode but for our
 current purpose, we can use either of the following -
-```
-+-----------------------------------------------------------+
+
 |  Command      |   Action                                  |
 |---------------|-------------------------------------------|
 |:w [file name] | This is Save Command. A new file is       |
@@ -876,36 +873,29 @@ current purpose, we can use either of the following -
 |               | buffer content is saved in the file.      |
 |               | If the file exists, it won't allow        |
 |               | you to save.                              |
-|---------------|-------------------------------------------|
 |:w! [file name]| If the file exists with name 'file name', |
 |               | the file is overwritten with the content  |
 |               | otherwise, a new file is created. Please  |
 |               | be careful while using this command. Im-  |
 |               | proper use of this can loss existing data |
-|---------------|-------------------------------------------|
 |:q             | This is Quit command. So, it will try to  |
 |               | quit the editor. But will show an error   |
 |               | mentioning that the  content of the       |
 |               | buffer is not saved                       |
-|---------------|-------------------------------------------|
 |:wq            | Combined Save and Quit Command. So, it    |
 |               | will try to save the content but as no    |
 |               | file name is mentioned, it cannot save    |
 |               | the buffer content and will show similar  |
 |               | error as before                           |
-|---------------|-------------------------------------------|
 |:wq [file name]| Combined Save and Quit Command. So, the   |
 |               | content will be saved to file named 'file |
 |               | name' and quit the editor.                |
-|---------------|-------------------------------------------|
 |:e!            | This command is issued to discard the     |
 |               | changes. As we started with empty file,   | 
 |               | a blank screen will be shown discarding   |
 |               | all the changes.                          |
-|---------------|-------------------------------------------|
 |:q!            | Will discard the changes and exit vi      |
-+-----------------------------------------------------------+
-```
+
 According to your wish, you can either save the buffer
 content to a file by using `:w [file name]` command or discard
 the changes using `:q!` command or you can remove everything
