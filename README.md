@@ -743,54 +743,30 @@ for future reference.
 *Summary of  Movements*
 
 
-|Movement                                           |  Commands      |
-|---------------------------------------------------|----------------|
-|left arrow, down arrow, up arrow, right arrow      |  h, j, k, l    |
-|To first non-blank character of  current line      |      ^         | 
-|To first non-blank character of next line          |  + or  <Enter> | 
-|--------------------------------------|------------|
-|To first non-blank character of       |  -         | 
-|previous line                         |            |
-|--------------------------------------|------------|
-|To end of word                        |  e or E    |
-|--------------------------------------|------------|
-|Forward by word                       |  w or W    |
-|--------------------------------------|------------|
-|Backward by word                      |  b or B    |
-|--------------------------------------|------------|
-|To end of line                        |  $         |
-|--------------------------------------|------------|
-|To beginning of line                  |  0         | 
-|--------------------------------------|------------|
-|Move 5 characters left                |  5h        |
-|--------------------------------------|------------|
-|Move 5 characters right               |  5l        |
-|--------------------------------------|------------|
-|Move 5 lines up                       |  5k        |
-|--------------------------------------|------------|
-|Move 5 lines below                    |  5j        |
-|--------------------------------------|------------|
-|Move 5 words forward to the first     |  5w        |
-|--------------------------------------|------------|
-|Move to the first of 5 words          |  5W        |
-|forward not counting  Punctuations    |            |
-|--------------------------------------|------------|
-|Move 6 words forward to the last      |  6e        |
-|--------------------------------------|------------|
-|Move 7 words forward to the last not  |  6E        |
-|counting punctuation                  |            |
-|--------------------------------------|------------|
-|Move 3 words backward to the first    |  3b        |
-|--------------------------------------|------------|
-|Move 4 words backward to the first    |  4B        |
-|not counting punctuation              |            |
-|--------------------------------------|------------| 
-|Move to the last of 3 lines below     |  4$        |
-|--------------------------------------|------------|
-|Move to the start of 5 lines above    |  5-        |
-|--------------------------------------|------------|
-|Move to the start of 6 lines below    |  6+        |
-|--------------------------------------|------------|
+|Movement                                                        |  Commands      |
+|----------------------------------------------------------------|----------------|
+|left arrow, down arrow, up arrow, right arrow                   |  h, j, k, l    |
+|To first non-blank character of  current line                   |      ^         | 
+|To first non-blank character of next line                       |  + or  <Enter> | 
+|To first non-blank character of previous line                   |  -             | 
+|To end of word                                                  |  e or E        |
+|Forward by word                                                 |  w or W        |
+|Backward by word                                                |  b or B        |
+|To end of line                                                  |  $             |
+|To beginning of line                                            |  0             | 
+|Move 5 characters left                                          |  5h            |
+|Move 5 characters right                                         |  5l            |
+|Move 5 lines up                                                 |  5k            |
+|Move 5 lines below                                              |  5j            |
+|Move 5 words forward to the first                               |  5w            |
+|Move to the first of 5 words forward not counting  Punctuations |  5W            |
+|Move 6 words forward to the last                                |  6e            |
+|Move 7 words forward to the last not counting punctuation       |  6E            |
+|Move 3 words backward to the first                              |  3b            |
+|Move 4 words backward to the first not counting punctuation     |  4B            |
+|Move to the last of 3 lines below                               |  4$            |
+|Move to the start of 5 lines above                              |  5-            |
+|Move to the start of 6 lines below                              |  6+            |
 
 These are pretty much all the basic movement commands, using
 which you can move through a file. We'll look at other tools
