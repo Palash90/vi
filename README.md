@@ -75,7 +75,7 @@ Table of Contents
 
 1. [Introduction](#chapter-1)
    1. [The importance of vi](#11-the-importance-of-vi)
-   2. [What all this book covers](#12-what-all-this-book-covers)
+   2. [What this book covers](#12-what-this-book-covers)
    3. [Who should read this book](#13-who-should-read-this-book)
    4. [Who should avoid this book](#14-who-should-avoid-this-book)
    5. [How to read this book](#15-how-to-read-this-book)
@@ -186,18 +186,18 @@ improved) for editing text.
 
 1.1 The importance of vi
 ------------------------
-While there are many text editors available (Both GUI Based
-and Text Based), vi is pretty popular in \*nix community.
-Reasons behind this are following -  
- 1. vi editor is standardized by POSIX, so any POSIX compliant
-    system must have this editor. Thus it can be life saver
+While there are many text editors available (both GUI-based
+and text-Based), vi is pretty popular in the \*nix community.
+The reasons behind this are the following -  
+ 1. The vi editor is standardized by POSIX, so any POSIX compliant
+    system must have this editor. Thus it can be a life saver
     at times when you have to perform some text editing but you
     do not have any other option available to you.
  2. Also if you are connecting to other machine using ssh,
     no GUI based editor will work. So, vi can be used to
     edit files in remote systems as and when required.
  3. vi is extremely fast and runs on low resources.
- 4. While using vi editor users need not use mouse and there
+ 4. While using the vi editor, users need not use a mouse and there
     are very few control key combination required in vi.
     This saves a lot of time.
  5. As vi is available everywhere and many Unix/Linux users use this
@@ -205,10 +205,10 @@ Reasons behind this are following -
     So, day to day job becomes easier.  
 
 Due to the reasons mentioned above, many programmers and
-system administrators rely on vi editor.
+system administrators rely on the vi editor.
 
-1.2 What all this book covers
------------------------------
+1.2 What this book covers
+-------------------------
 This book is mainly focused on the basic commands of vi
 editor, which is available in any other improved version of
 vi like vim, nvi, elvis etc. So, all the commands and
