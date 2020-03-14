@@ -1431,7 +1431,7 @@ and changes to Insert mode.
 You can remember the following table for change shortcuts -
 
 | Longer Version     | Shorcut         |
-|--------------------------------------|
+|--------------------|-----------------|
 | cl                 | s               |
 | c$                 | C               |
 | cc                 | S               |
@@ -1444,7 +1444,7 @@ need `<Esc> :wq` which is a bit of typing, You can do the same
 with `<Esc> ZZ`. `ZZ` is easier to type than `:wq`.
 
 | Longer Version     | Shorcut         |
-|--------------------------------------|
+|--------------------|-----------------|
 | <Esc>:wq           | <Esc>ZZ         | 
 
 
@@ -1477,7 +1477,7 @@ You can also add text in the beginning of a line by using
 `I` command. Which is a shortcut for `0i`.
 
 | Longer Version     | Shorcut         |
-|--------------------------------------|
+|--------------------|-----------------|
 | i<Right Arrow>     | a               |
 | $i<Right Arrow>    | A               |
 | 0i                 | I               |
